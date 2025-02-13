@@ -1,0 +1,30 @@
+/* Ensure the background covers the entire screen */
+body {
+    background-image: url("https://i.pinimg.com/736x/6c/77/3a/6c773a6a203b8c0a9d63ec3a2564a639.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container styling */
+h1{
+    text-align: center;
+    background-color: rgb(186, 186, 215);
+}
+#container {
+    display: flex;
+}
+#t1 {
+    display: flex;
+    background-color: brown;
+    padding: 10px;
+    margin: 5px ;
+}
+
+#button {
+    padding: 10px;
+    margin: 20px;
+}
