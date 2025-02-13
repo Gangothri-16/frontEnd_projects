@@ -1,30 +1,26 @@
-/* Ensure the background covers the entire screen */
-body {
-    background-image: url("https://i.pinimg.com/736x/6c/77/3a/6c773a6a203b8c0a9d63ec3a2564a639.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+.home{
+    background-color: rgb(191, 236, 221);
+    margin: 80px;
+    padding: 40px;
+    row-gap: 2px;
+}
+.task-sections {
     display: flex;
-    flex-direction: column;
+    column-gap: 15px;
+    row-gap: 15px;
 }
-
-/* Container styling */
-h1{
-    text-align: center;
-    background-color: rgb(186, 186, 215);
+.task-section {
+    gap: 50px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 12px;
 }
-#container {
-    display: flex;
+.task-input {
+    padding: 15px 20px;
 }
-#t1 {
-    display: flex;
-    background-color: brown;
-    padding: 10px;
-    margin: 5px ;
+.add-task-button {
+    padding: 15px 20px;
 }
-
-#button {
-    padding: 10px;
-    margin: 20px;
+.add-task-button:hover {
+    background-color: rgb(182, 123, 237);
 }

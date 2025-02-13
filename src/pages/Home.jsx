@@ -2,14 +2,22 @@ import React from 'react'
 import './Style.css'
 export default function Home() {
   return (
-    <div>
-      <h1>TO-DO-APP</h1>
-      <div id='container'>
-      <textarea  id="t1" placeholder='Enter task'></textarea>
-      <button id="button">ADD TASK</button>
+    <div className='home'>
+      <form className='taskform'>
+        <input type="text" placeholder='Enter a task...' className='task-input'/>
+        <button className='add-task-button'>ADD TASK</button>
+      </form>
+      <div className='task-sections'>
+        <div className='task-section'>
+          <h2>To-Do-Tasks</h2>
+      </div>
+      <div className='task-section'>
+        <h2>Ongoing Tasks</h2>
+      </div>
+      <div className='task-section'>
+        <h2>Completed Tasks</h2>
       </div>
     </div>
-    
-    
-  )
+   </div>
+  );
 }
